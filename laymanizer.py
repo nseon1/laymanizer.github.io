@@ -1,6 +1,6 @@
 #import libraries
-pip install openai
-pip install streamlit as st
+import openai
+import streamlit as st
 
 #set key
 #secrets.toml
