@@ -1,4 +1,4 @@
-# laymanizer
-text laymanizer
+# Laymanizer
+Text laymanizer
 
-turns confusing text to simplified versions;removes complicated in the field type words and replaces them with less technical jargon
+Turns confusing text to simplified versions;removes complicated in the field type words and replaces them with less technical jargon
