@@ -18,7 +18,7 @@ if len(article_text)>100 :
     response=openai.Completion.create(
     engine="text-davinci-003",
     prompt="Explain the sentence below as if they had basic knowledge of the field, please  change any scientific or confusing terms to high school terms:"+ article_text,
-    max_token=516,
+    max_tokens=516,
     temperature=0.1,
     )
 
