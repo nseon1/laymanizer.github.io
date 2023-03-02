@@ -5,7 +5,6 @@ import streamlit as st
 
 #set key
 #secrets.toml
-openai.apikey=st.secrets['pass']
 
 #input text
 st.header("laymanizer using openai and streamlit")
