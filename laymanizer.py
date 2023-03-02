@@ -4,6 +4,7 @@ import openai
 import streamlit as st
 
 #set key
+openai.api_key=st.secrets["api_key"]
 #secrets.toml
 
 #input text
