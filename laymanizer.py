@@ -25,12 +25,9 @@ if len(article_text)>100 :
 #print summary
     res=response["choices"]["0"]["text"]
     st.info(res)
-#get output size
-
-#set tokens
-
 
 #check if there are enough words in the text that was read
-
+else:
+    st.warning("make sure your sentence is at least 100 characters!")
 
 #if enough,show
