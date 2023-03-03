@@ -17,6 +17,9 @@ Laymanizer uses natural language processing (NLP) to analyze the input text and 
 
 Users can simply input the text they want to simplify, and Laymanizer takes care of the rest. The simplified text is displayed on the webapp, making it easy to copy and paste or share with others.
 
+![Screenshot (134)](https://user-images.githubusercontent.com/89584431/222714785-dfef32f0-c0e8-4d77-a6ea-f38fe4beb0db.png)
+
+
 Technologies Used
 -----------------
 
