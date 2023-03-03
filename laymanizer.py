@@ -8,12 +8,12 @@ openai.api_key=st.secrets["api_key"]
 #secrets.toml
 
 #input text
-st.header("laymanizer using openai and streamlit")
-article_text= st.text_area("enter text to laymanize")
+st.header("Laymanizer using OpenAI and Streamlit")
+article_text= st.text_area("Enter text to Laymanize")
 
 #get text
 if len(article_text)>100 :
-  if st.button("generate summary"):
+  if st.button("Generate summary"):
     #gpt stuff
     response=openai.Completion.create(
     engine="text-davinci-002",
@@ -29,6 +29,6 @@ if len(article_text)>100 :
 
 #check if there are enough words in the text that was read
 else:
-    st.warning("make sure your sentence is at least 100 characters!")
+    st.warning("Make sure your sentence is at least 100 characters!")
 
 #if enough,show
