@@ -21,10 +21,10 @@ if len(article_text)>100 :
     max_tokens=516,
     temperature=0.1,
     )
+    
 
 #print summary
-    res=response["choices"]["0"]["text"]
-    st.success(res)
+    print(response)
 
 #check if there are enough words in the text that was read
 else:
