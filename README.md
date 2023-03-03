@@ -1,7 +1,7 @@
 Laymanizer
 ==========
 
-Laymanizer is an openai and streamlit powered webapp that simplifies confusing text by replacing complicated words with less technical jargon and layman terms.
+Laymanizer is an openai and streamlit powered web app that simplifies confusing text by replacing complicated words with less technical jargon to layman terms.
 
 Features
 --------
