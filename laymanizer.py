@@ -16,8 +16,8 @@ if len(article_text)>100 :
   if st.button("generate summary"):
     #gpt stuff
     response=openai.Completion.create(
-    engine="text-davinci-003",
-    prompt="Explain the sentence below as if they had basic knowledge of the field, please  change any scientific or confusing terms to high school terms:"+ article_text,
+    engine="text-curie-001",
+    prompt="Explain the sentence below to someone who has a high school level knowledge of the field,change any scientific or confusing terms simpler terms:"+ article_text,
     max_tokens=516,
     temperature=0.1,
     )
