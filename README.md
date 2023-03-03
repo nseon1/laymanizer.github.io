@@ -34,6 +34,6 @@ To use Laymanizer, simply go to the webapp's URL and enter the text you want to 
 Future Plans
 ------------
 
-In the future, we plan to add more features to Laymanizer, such as the ability to customize the level of simplification and to provide explanations of complex terms. We also plan to explore other NLP models and techniques to improve the accuracy and effectiveness of the app.
+In the future, we plan to add more features to Laymanizer, such as the ability to customize the level of simplification and to provide explanations of complex terms. We also plan to explore other NLP models and techniques to improve the accuracy and effectiveness of the app and make it into a browser extension for easy use.
 
 Thank you for considering Laymanizer we sincerely hope you find it helpful!
