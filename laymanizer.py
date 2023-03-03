@@ -24,7 +24,7 @@ if len(article_text)>100 :
     
 
 #print summary
-    print(response)
+    st.success(response)
 
 #check if there are enough words in the text that was read
 else:
